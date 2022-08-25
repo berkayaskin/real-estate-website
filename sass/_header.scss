@@ -23,8 +23,17 @@
 	}
 
 	&__logo {
-		height: 3rem;
-		justify-self: center;
+		display: flex;
+		align-items: flex-start;
+		gap: 1rem;
+	
+		img {
+			height: 3rem;
+		}
+
+		h3 {
+			padding-top: 0.3rem;
+		}
 	}
 
 	&__btn {
